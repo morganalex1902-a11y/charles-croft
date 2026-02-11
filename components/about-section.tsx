@@ -29,7 +29,7 @@ export function AboutSection() {
                 alt="Charles Croft"
                 width={400}
                 height={600}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent"></div>
             </div>
