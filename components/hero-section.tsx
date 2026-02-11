@@ -88,7 +88,7 @@ export function HeroSection() {
             {/* Headshot */}
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-2 border-gold/30 w-full max-w-sm aspect-[4/5]">
               <Image
-                src="/charles-headshot.jpg"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc70ebb3e5225486399c19406cd27bb43%2F9b12635aa2884aaba11bcdd8b97ecae6?format=webp&width=800&height=1200"
                 alt="Charles Croft - Mortgage Loan Officer"
                 fill
                 priority
