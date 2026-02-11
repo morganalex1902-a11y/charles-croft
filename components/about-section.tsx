@@ -23,13 +23,13 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-20">
           {/* Left - Photo */}
           <FadeInUp delay={0.1}>
-            <div className="relative h-96 lg:h-[450px] rounded-2xl overflow-hidden shadow-xl">
+            <div className="relative h-96 lg:h-[600px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/charles-headshot.jpg"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc70ebb3e5225486399c19406cd27bb43%2F8ff04384df5948f7918c179e7495c93a?format=webp&width=800&height=1200"
                 alt="Charles Croft"
                 width={400}
-                height={450}
-                className="w-full h-full object-cover"
+                height={600}
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent"></div>
             </div>
